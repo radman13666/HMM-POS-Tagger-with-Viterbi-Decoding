@@ -1,8 +1,2 @@
-bin/
-.vscode
-.settings
-.classpath
-.project
-
-src/viterbi/*.class
-Score.java
+.idea/
+*/**/*.class
