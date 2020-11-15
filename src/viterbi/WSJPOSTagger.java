@@ -13,8 +13,8 @@ public class WSJPOSTagger {
     private static Integer MAX_WORD_FREQUENCY;
 
     public static void main(String[] args) throws IOException {
-        if (args.length != 3) {
-            String errMsg = "Expected [TEST_WORDS_FILENAME] [MAX_SUFFIX_LENGTH] [MAX_WORD_FREQUENCY], got " + args.length + " args.";
+        if (args.length != 4) {
+            String errMsg = "Expected [TEST_WORDS_FILENAME] [MAX_SUFFIX_LENGTH] [MAX_WORD_FREQUENCY] [MODEL_FILENAME], got " + args.length + " args.";
             System.err.println(errMsg);
             System.exit(99);
         }
@@ -26,7 +26,7 @@ public class WSJPOSTagger {
 
         // Read saved trained model from file: https://docs.oracle.com/javase/8/docs/api/java/io/ObjectInputStream.html
         BigramModel bigramModel = null;
-        try (FileInputStream fis = new FileInputStream("trained-luganda-pos-tagger.model");
+        try (FileInputStream fis = new FileInputStream(args[3]);
               ObjectInputStream ois = new ObjectInputStream(fis);) {
           bigramModel = (BigramModel) ois.readObject();
         } catch (Exception e) {

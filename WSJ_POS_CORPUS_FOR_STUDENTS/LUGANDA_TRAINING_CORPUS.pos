@@ -371,7 +371,8 @@ y’	PB5X
 amanda	NCXTX
 
 abawala	NC2TX
-ba ssaluuni	NCXXX
+ba	TR2X
+ssaluuni	NCXXX
 balanga	V1+B2AN
 enviiri	NCXTX
 zabwe	PP6X
@@ -2349,7 +2350,7 @@ essaawa	NCXTX
 ekkumi	OD
 n'	TC
 emu	CD
-ez'	 PT6X
+ez'	PT6X
 ekiro	DTX
 
 Ebula	V1+T5NN
@@ -2764,7 +2765,7 @@ nti	TO
 laaputoopu	NCXBX
 zisobola	V1+B6NN
 okukozesebwa	V0+
-buli 	TO
+buli	TO
 wamu	DLX
 .	.
 
@@ -3645,7 +3646,7 @@ ezigaana	V1+T5NN
 Buganda	NCXBX
 okukkiriza	V0+
 ebbago	NCXTX
-ly'PR9X
+ly'	PR9X
 etteeka	NC5TX
 ly'	PR9X
 ettaka	NCXTX
@@ -4012,7 +4013,7 @@ ne	TC
 limwannukula	V1+B9NN
 nti	TO
 ,	,
- ""	""
+""	""
 yee	TO
 ,	,
 buno	PDXX
@@ -4071,7 +4072,7 @@ obulamu	NCXTX
 bwo	PPXX
 ziri	V1+B6AN
 mmeka	TR
-?
+?	?
 
 "	"
 Falaawo	NC1BX
@@ -4414,7 +4415,7 @@ kasooli	NCXBX
 jjajja	NC1BX
 agera	V1+T1CN
 olugero	NCFTX
-lwaTC
+lwa	TC
 Wakayima	NPXXX
 
 jjajjange	POXX
@@ -4630,7 +4631,7 @@ ekitabo	NC7TX
 
 "	"
 kasedde	NPXBX
-agula 	V1+T1AN
+agula	V1+T1AN
 ekitabo	NC7TX
 ,	,
 walusimbi	NPXBX
@@ -7308,7 +7309,7 @@ mu	TP
 kaabuyonjo	NCXBX
 
 Nabagereka	NCXBX
-bwe
+bwe	PRXX
 yabadde	V1+BXBN
 atema	V1+T1NN
 evvuunike	NC3TX
@@ -7578,7 +7579,7 @@ ebizigo	NC8TX
 nnyini	NCXBX
 ffaamu	NCXBX
 yeefula	V1+BXNN
-nswaswa 	NPXBX
+nswaswa	NPXBX
 eteeyanula	V0-BXNN
 
 nnyinyonnyola	V1+BXEN
@@ -7685,7 +7686,7 @@ mbeera	V1+BXNN
 Bushenyi	NPXXX
 "	"
 
-nze	 PSXX
+nze	PSXX
 mbadde	V1+BXNN
 nsuubira	V1+BXNN
 okubaako	V0+
@@ -7734,7 +7735,7 @@ abiri	CD
 n'	TC
 asatu	CD
 ng’	TP
-alina 	V1+T1NN
+alina	V1+T1NN
 empisa	NCXTX
 .	.
 
@@ -8001,7 +8002,7 @@ yatuyambye	V2+BXXBN
 obutalaba	V1+TXNN
 walusimbi	NPXBX
 
-"	ZQ
+"	"
 Obutungulu	NC9TX
 ,	,
 katunguluccumu	NCXTX
@@ -8017,7 +8018,7 @@ enniimu	NCXTX
 n’	TC
 omubisi	NCXTX
 gw’	PE3X
-enjuki
+enjuki	NCXBX
 .	.
 "	"
 
@@ -8225,10 +8226,10 @@ musanvu	CD
 ez’	PDXX
 omu	TC
 ttuntu	DTX
-okutuuka+V0+
-ku 	TP
+okutuuka	V0+
+ku	TP
 ssaawa	DTX
-kkumi 	CD
+kkumi	CD
 na	TC
 bbiri	AT
 ez’	PDXX
@@ -9050,7 +9051,7 @@ lyange	PSXX
 
 omusawo	NC1TX
 alinkuba	V1+T1AN
-empiso		NCXTX
+empiso	NCXTX
 
 omusawo	NC1TX
 amukuba	V1+T1AN
@@ -9062,7 +9063,7 @@ ebiwundu	NC8TX
 
 omusawo	NC1TX
 ankuba	V1+T1ANN
-empiso		NCXTX
+empiso	NCXTX
 
 omusawo	NC1TX
 enkya	DTX
@@ -9121,7 +9122,7 @@ enkulu	DXX
 omuserikale	NC1TX
 alina	V1+T1BN
 cceppe	NCXBX
-ku 	TP
+ku	TP
 ssaati	NC5TX
 ye	PPXX
 ,	,
@@ -9142,7 +9143,7 @@ omusomesa	NC1TX
 anaalwala	V1+T1RN
 nnyo	DQX
 
-omusomesa		NC1TX
+omusomesa	NC1TX
 anaawandiika	V1+T1RN
 mu	TP
 kitabo	NC7BX
@@ -9231,7 +9232,7 @@ eggumu	AT
 ennyo	DQX
 
 omutunzi	NC1TX
-w'	 PPXX
+w'	PPXX
 engoye	NCGTX
 atunga	V1+T1AN
 ngoye	NCGBX
@@ -9926,7 +9927,7 @@ kugendayo	V1+BXEN
 gabasengule	V2+BA2EN
 "	"
 
-ssinga	V0+ TXRN
+ssinga	V0+TXRN
 wawulira	V1+BXDN
 amateeka	NC6TX
 gange	PPXX
@@ -10053,7 +10054,6 @@ lwakutaano	OD
 Ssese	NPXBX
 akolebwa	V1+BXNN
 ebizinga	NC8BX
-ebisoba
 mu	TP
 kikumi	CD
 mu	TP
@@ -10679,7 +10679,7 @@ z'	PE6X
 abantu	NC2TX
 abali	V1+B1NN
 mu	TP
-nsi 	NCXBX
+nsi	NCXBX
 ya	PB5X
 Sitaani	NCXBX
 
@@ -10756,7 +10756,7 @@ obuso	NCABX
 twagula	V1+BXDN
 bikopo	NC7BX
 walusimbi	NPXBX
-bye 	PR8X
+bye	PR8X
 yaleeta	V1+BXDN
 
 twakalaba	V1+BXNN
@@ -10814,7 +10814,7 @@ okumpi	DLX
 ne	TC
 Masaka	NPXBX
 
-twandirabye 	V1+BXNN
+twandirabye	V1+BXNN
 walusimbi	NPXBX
 
 Twanyuse	V1+BXCN
@@ -11135,7 +11135,7 @@ kinnya	NC7BX
 .	.
 
 Weewale	V1+BXNN
-okulya		V0+
+okulya	V0+
 ebintu	NC7TX
 ebiwoomerera	V1+T8NN
 ekisusse	DMX
@@ -11510,7 +11510,7 @@ mu	TP
 yayita	V1+BXDN
 wali	PDXX
 okusobola	V0+
-okutuuka 	V0+
+okutuuka	V0+
 okwosa	V0+
 jjo	DTX
 
@@ -13104,7 +13104,7 @@ Ekibira	NC7TX
 kinene	AT
 
 Ebimuli	NC8TX
-ebirungi 	AT
+ebirungi	AT
 
 Ebimuli	NC8TX
 birungi	AT
@@ -13116,7 +13116,7 @@ Ekyensuti	NC7TX
 ekyeru	AT
 
 Ekibe	NC7TX
-kidduse 	AT
+kidduse	AT
 
 Ebijiiko	NC8TX
 bibuze	V1+B8BN
@@ -13184,7 +13184,7 @@ byayo	PPXX
 
 Ekibe	NC7TX
 omutwe	NC3TX
-gwakyo 	PPXX
+gwakyo	PPXX
 
 Ebibe	NC8TX
 emitwe	NC4TX
@@ -13223,7 +13223,7 @@ Ebikopo	NC8TX
 bisatu	AT
 
 Ekibira	NC7TX
-kiikiri 	PDXX
+kiikiri	PDXX
 
 Ebikwaso	NC8TX
 biibino	PDXX
@@ -13252,7 +13252,7 @@ ekibi	AT
 
 Ebyambalo	NC8TX
 by'	PB8X
-abakazi	NC2T	X
+abakazi	NC2TX
 b'	PPXX
 eggwanga	NC9TX
 lino	PDXX
@@ -13268,7 +13268,7 @@ caayi	NCXTX
 ne	TC
 booza	V1+B2NN
 ebikopo	NC8TX
-byabwe 	PPXX
+byabwe	PPXX
 
 Tebaasiima	V1-B2DN
 kikolwa	NC7TX
@@ -13363,7 +13363,7 @@ teyavunda	V1+BXDN
 
 Tomuwa	V1+BXAN
 kitabo	NC7BX
-ekyo 	PDXX
+ekyo	PDXX
 
 Ka	TO
 ŋŋende	V1+BXEN
@@ -13401,7 +13401,7 @@ Akagaali	NC9TX
 kabuze	V1+BXBN
 
 Oluwago	NCFTX
-lwabise	 V1+BXBN
+lwabise	V1+BXBN
 
 Obusuulu	NCATX
 Tunaabumuwa	V2+BXXCN
@@ -13459,13 +13459,13 @@ Olukomera	NCFTX
 lulli	PD9X
 
 Olwazi	NCBTX
-olwo 	PDXX
+olwo	PDXX
 
 Akalalu	NC9TX
 kamu	AT
 
 Enguudo	NCGTX
-nnya 	AT
+nnya	AT
 
 Obwana	NCXTX
 busatu	AT
@@ -13650,7 +13650,7 @@ ogumaze	V2+TXXBN
 ?	?
 
 Twagenda	V1+BXDN
-ne 	TC
+ne	TC
 mwannyinaze	NC1BX
 
 Ebitabo	NC8TX

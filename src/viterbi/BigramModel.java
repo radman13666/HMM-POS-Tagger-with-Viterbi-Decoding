@@ -2,6 +2,7 @@ package viterbi;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -9,7 +10,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-public class BigramModel {
+public class BigramModel implements Serializable {
 
     private Integer MAX_SUFFIX_LENGTH;
 
@@ -49,6 +50,7 @@ public class BigramModel {
                 }
 
                 String[] wordTag = line.split("\t");
+                //System.out.println(java.util.Arrays.toString(wordTag));
                 String word = wordTag[0];
                 String tag = wordTag[1];
 

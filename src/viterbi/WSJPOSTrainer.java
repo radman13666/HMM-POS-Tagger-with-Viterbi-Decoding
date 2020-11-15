@@ -18,21 +18,21 @@ public class WSJPOSTrainer {
             System.exit(99);
         }
 
-        System.out.println("Using a maximum suffix length of " + MAX_SUFFIX_LENGTH);
-        System.out.println("Using words with a maximum frequency of " + MAX_WORD_FREQUENCY + " to create suffix tree");
-
-        System.out.println("Training...");
         MAX_SUFFIX_LENGTH = Integer.parseInt(args[1]);
         MAX_WORD_FREQUENCY = Integer.parseInt(args[2]);
+
+        System.out.println("Using a maximum suffix length of " + MAX_SUFFIX_LENGTH);
+        System.out.println("Using words with a maximum frequency of " + MAX_WORD_FREQUENCY + " to create suffix tree");
 
         String trainFilename = args[0];
         File trainFile = new File(trainFilename);
         BigramModel bigramModel = new BigramModel(MAX_SUFFIX_LENGTH);
+        System.out.println("Training...");
         bigramModel.train(trainFile);
         System.out.print("Finished training. ");
 
         // Save the trained model in a file: https://docs.oracle.com/javase/8/docs/api/java/io/ObjectOutputStream.html
-        String modelFilename = "trained-luganda-pos-tagger.model";
+        String modelFilename = java.util.UUID.randomUUID().toString() + ".model";
         try (FileOutputStream fos = new FileOutputStream(modelFilename);
               ObjectOutputStream oos = new ObjectOutputStream(fos);) {
           oos.writeObject(bigramModel);
